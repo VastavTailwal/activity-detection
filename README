@@ -1,0 +1,16 @@
+Human Activity Detection
+
+This dataset was collected using an Inertial Measurement Unit (IMU) sensor connected to a ESP32s3, capturing the motion data for seven different activities that include: walking upstairs, walking downstairs, walking, jogging, sitting, standing and sleeping. The target column, being activity was initially stored as text then later it was mapped into numerical values for easier analysis. 
+
+The dataset contains 90,000 observations with seventeen features, sixteen of them representing the sensor readings and one indicating the activity label. The sixteen sensor data includes three-axis attitude, three-axis gravity, three-axis gyroscope, three-axis acceleration, three-axis magnetic field and temperature.
+
+This dataset is useful for Human Activity Recognition (HAR) research, with potential applications in areas of machine learning-based classification and healthcare monitoring such as rehabilitation. 
+
+Activity label: 
+0 = walking
+1 = jogging
+2 = downstairs
+3 = upstairs
+4 = standing
+5 = sitting
+6 = sleeping
