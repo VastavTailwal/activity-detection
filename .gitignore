@@ -1,5 +1,5 @@
 .venv/
 .vscode/
-data/
-tuner/
-model/
+/data/
+/tuner/
+/model/
